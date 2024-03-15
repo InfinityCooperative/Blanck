@@ -11,6 +11,10 @@ body{
     margin-top: 5%;
     margin-left: 0%;
 }
+.slogan{
+    position: relative;
+    height: 50px;
+}
 .referencia{
     position: relative;
     height: 50px;
