@@ -7,14 +7,14 @@ body{
 }
 .nome{
     position: absolute;
-    height: 50px;
-    margin-left: -70%;
+    height: 35px;
+    margin-left: -85%;
     margin-top: 0%;
 }
 .slogan{
     position: absolute;
-    height: 50px;
-    margin-left: -60%;
+    height: 35px;
+    margin-left: -80%;
     margin-top: 7%;
 }
 .logo{
