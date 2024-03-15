@@ -5,18 +5,6 @@
 body{
     background-color: black;
 }
-.nome{
-    position: absolute;
-    height: 35px;
-    margin-left: -75%;
-    margin-top: 0%;
-}
-.slogan{
-    position: absolute;
-    height: 35px;
-    margin-left: -70%;
-    margin-top: 7%;
-}
 .logo{
     position: relative;
     height: 200px;
