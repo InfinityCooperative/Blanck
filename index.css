@@ -11,6 +11,11 @@ body{
     margin-top: 5%;
     margin-left: 0%;
 }
+.imagem{
+    position: relative;
+    margin: 20px;
+    height: 25px;
+}
 .slogan{
     position: relative;
     height: 65px;
