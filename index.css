@@ -3,18 +3,25 @@
     color: white;
 }
 body{
+    background-color: rgb(218, 241, 236);
+}
+.cabeçalho{
     background-color: black;
+    border-width: 0.7px;
+    border-style: solid;
+    border-color: #000;
+    border-radius: 5px;
+    height: auto;
 }
 .logo{
+    margin-top: 0px;
     position: relative;
     height: 200px;
-    margin-top: 5%;
-    margin-left: 0%;
 }
 .imagem{
     position: relative;
+    height: 40px;
     margin: 20px;
-    height: 25px;
 }
 .slogan{
     position: relative;
@@ -22,13 +29,13 @@ body{
 }
 .referencia{
     position: relative;
-    height: 50px;
+    height: 25px;
 }
 .rodape{
-        background-color: rgb(218, 241, 236);
-        border-radius: 5px;
-        border-width: 0.7px;
-        border-style: solid;
-        border-color: #000;
-        height: auto;
+    background-color: black;
+    border-radius: 5px;
+    border-width: 0.7px;
+    border-style: solid;
+    border-color: #000;
+    height: auto;
 }
