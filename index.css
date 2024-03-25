@@ -62,6 +62,9 @@ body{
     height: 100px;
     width: 190px;
 }
+.bt{
+    text-color: black;
+}
 .cooperacao1{
     position: relative;
     margin: 10px;
