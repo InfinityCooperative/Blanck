@@ -1,9 +1,7 @@
-*{
-    text-align: center;
-    color: white;
-}
 body{
     background-color: rgb(218, 241, 236);
+    text-align: center;
+    color: black;
 }
 .cabeçalho{
     background:url(imagens/textura.png) center  center no-repeat fixed;
