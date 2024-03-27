@@ -42,16 +42,23 @@
         <p>
     <img src="imagens/slogan castle.png" alt="slogan" class="slogan">
 </p>
-        <h3>Formulario de envio</h3>
-        <form action="POST" method="POST">
-            <p><label>Nome Completo:</label></p>
-            <p><input type="text" name="Nome completo" required/></p>
-            <p><label>Email:</label></p>
-            <p><input type="email" name="Email" required/></p>
-            <p><label>Digite sua mensagem:</label></p>
-            <p><textarea class="mensagem"></textarea></p>
-            <p><button type="sendto:infinitycooperativa@gmail.com" class="bt" required>Enviar</button></p>
+         </p>
+         <h3>Formulario de envio</h3>
+        <form action="https://api.staticforms.xyz/submit" method="post">
+            <p><Label>Nome Completo</Label></p>
+            <p><input type="text" name="name" placeholder="Seu Nome Completo" required></p>
+            <p><Label>Seu email para contato</Label></p>
+            <p><input type="text" name="email" placeholder="Seu Email" required/></p>
+            <p><Label>Sua mensagem</Label></p>
+            <p><textarea name="message" cols="25" rows="10" placeholder="Escreva sua mensagem" required></textarea></p>
+            <input type="text" name="honeypot" style="display:none">
+            <input type="hidden" name="accessKey" value="bf886e5b-8584-4bcb-905c-2a8f025c0eeb">
+            <input type="hidden" name="subject" value="Contact us from - blanckcastle@gmail.com" />
+            <input type="hidden" name="replyTo" value="@">
+            <input type="hidden" name="redirectTo" value="https://infinitycooperative.github.io/pagina-de-agradecimento-blanck/">
+            <input type="submit" value="Enviar" />
         </form>
+        <p>
     <p>   
     <a href="https://infinitycooperative.github.io/Alem_de_um_status/"><img class="referencia" src="imagens/infinity icon.png"></a>
 </p>
