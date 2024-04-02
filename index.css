@@ -1,14 +1,14 @@
 body{
-    background-color: rgb(218, 241, 236);
-    text-align: center;
-    color: black;
-}
-.cabeçalho{
     background:url(imagens/textura.png) center  center no-repeat fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+    text-align: center;
+    color: black;
+}
+.cabeçalho{
+    background-color: rgb(218, 241, 236);
     border-width: 0.7px;
     border-style: solid;
     border-color: #000;
@@ -39,11 +39,7 @@ body{
     height: 25px;
 }
 .rodape{
-     background:url(imagens/textura.png) center  center no-repeat fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
+    background-color: rgb(218, 241, 236);
     border-width: 0.7px;
     border-style: solid;
     border-color: #000;
