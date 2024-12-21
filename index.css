@@ -59,6 +59,18 @@ body{
     border-color: #000;
     height: auto;
 }
+.form{
+    display: inline-grid;
+    padding: 30px 60px;
+    margin: 50px;
+    border-width: 0.5px;
+    border-style: solid;
+    border-radius: 10px;
+}
+.botaoenv:hover {
+    text-decoration: underline;
+    border-style: solid;
+}
 .mensagem{
     height: 100px;
     width: 190px;
